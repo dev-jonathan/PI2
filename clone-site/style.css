@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    color: aliceblue;
+}
+body{
+    background-color: chocolate;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -160px auto;
+}
+
+.container div {
+    max-width: 19rem;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+    border-bottom: 3px solid;
+    border-color: aliceblue;
+    padding:1rem  0rem ;
+}
+
+section p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 5px;
+    border-color: aliceblue;
+    margin-bottom: 20px;
+}
+#inicio{
+    background-color: aliceblue;
+    height: 15rem;
+}
+footer{
+    margin: 12rem;
+    text-align: center;
+    
+}
